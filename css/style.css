@@ -61,7 +61,41 @@ img{
 }
 
 /*PARTE RESPONSIVE*/
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 779px) {
+  .container.grey {
+    background-color: #DFF2FF;
+  }
+
+  .row {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+  }
+
+  img {
+    height: 150px;
+  }
+
+  #steps .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #steps .row h1 {
+    width: 100%;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    float: none;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 419px) {
   .container.grey {
     background-color: #F2F2CD;
   }
